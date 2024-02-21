@@ -1,5 +1,5 @@
-
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -10,14 +10,14 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f0f0f0;
+  background-color: #f9fafb;
 }
 
 .faucet-container {
   padding: 8px;
   margin: 8px;
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   max-width: 100vw;
 }
@@ -57,8 +57,6 @@ html, body {
   pointer-events: none;
 }
 
-
-
 .faucet-page .faucet-frontimage {
   text-align: center;
   padding: 0 8px;
@@ -71,23 +69,24 @@ html, body {
 .faucet-page .faucet-image {
   margin: 8px 8px 8px 8px;
 }
- 
-@media screen and (max-height:700px) {
+
+@media screen and (max-height: 700px) {
   .faucet-page .faucet-image {
-    display:none;
+    display: none;
   }
 }
-
 
 .faucet-page {
   width: 450px;
 }
 
-.faucet-page:has(.page-mining), .faucet-page:has(.page-frontpage) {
+.faucet-page:has(.page-mining),
+.faucet-page:has(.page-frontpage) {
   width: 450px;
 }
 
-.faucet-page:has(.page-claim), .faucet-page:has(.page-details) {
+.faucet-page:has(.page-claim),
+.faucet-page:has(.page-details) {
   width: 600px;
 }
 
@@ -95,9 +94,8 @@ html, body {
   width: auto;
 }
 
-
 .faucet-page .faucet-status-alerts {
-  position: relative
+  position: relative;
 }
 
 .faucet-page .faucet-inputs {
@@ -121,7 +119,7 @@ html, body {
 }
 
 .faucet-page .faucet-actions button.start-action {
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
 
 .faucet-page .faucet-actions button.stop-action {
@@ -161,7 +159,6 @@ html, body {
 .faucet-page .pow-header {
   position: relative;
 }
-
 
 .faucet-page .txhash {
   font-size: 9pt;
